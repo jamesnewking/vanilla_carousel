@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <title>JS Vanilla Carousel</title>
+</head>
+
+<body>
+<div class="carousel-container">
+    <i class="fas fa-angle-left" id="previousButton"></i>
+    <i class="fas fa-angle-right" id="nextButton"></i>  
+    <div class="textContent">
+        <div><h1>SPRING 2019</h1></div>
+        <br>
+        <h3>Cupcake pie jujubes marshmallow gummies dragée.</h3>
+        <br>
+        <div>
+            <button>SHOP WOMENS</button>
+            <button>SHOP MENS</button>
+        </div>
+        
+    </div>
+    <div class="carousel-slide">
+        <img id="lastClone" src="./asset/600x300_5.png" alt="picture_5">
+        <img src="./asset/600x300_1.png" alt="picture_1">
+        <!-- <img src="http://gifpng.com/400x300?border-width=1&border-type=rectangle&border-color=FF0000&text=picture_1" alt="picture_1"> -->
+        <img src="./asset/600x300_2.png" alt="picture_2">
+        <img src="./asset/600x300_3.png" alt="picture_3">
+        <img src="./asset/600x300_4.png" alt="picture_4">
+        <img src="./asset/600x300_5.png" alt="picture_5">
+        <img id="firstClone" src="./asset/600x300_1.png" alt="picture_1">
+    </div>
+    <ol class="page-dots">
+        <li class="dot active"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+    </ol>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
