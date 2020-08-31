@@ -28,7 +28,6 @@ nextButton.addEventListener(`click`, () => {
             updateCarousel();
             noClicks = true;
         }, 400);
-        // clearInterval();
     }
 })
 
@@ -59,8 +58,3 @@ let intervalID = setInterval( () => {
     nextButton.click();
     // console.log(`triggered! ${intervalID}`);
 }, 4000 );
-
-const clearInterval = () => {
-    console.log(intervalID);
-    clearInterval(intervalID);
-}
