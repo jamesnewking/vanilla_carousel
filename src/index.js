@@ -1,3 +1,4 @@
+import './css/style.scss';
 const carouselSlide = document.querySelector(`.carousel-slide`);
 const carouselImages = document.querySelectorAll(`.carousel-slide img`);
 const previousButton = document.querySelector(`#previousButton`);
