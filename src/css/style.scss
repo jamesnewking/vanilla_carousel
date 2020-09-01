@@ -20,11 +20,9 @@ body {
     position: relative;
     width: $carousel-width;
     margin: auto;
-    /* border: solid black 5px; */
     overflow: hidden;
 
     .textContent {
-        // border: solid black 5px;
         display: flex;
         flex-direction: column;
         position: absolute;
